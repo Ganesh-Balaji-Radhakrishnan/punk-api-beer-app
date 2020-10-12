@@ -57,6 +57,13 @@ header {
     margin-bottom: 2em;
 }
 
+@media (max-width:850px){
+    .filters{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 .filter-card {
     padding: .8rem;
 }
@@ -65,6 +72,14 @@ header {
     padding: .4rem .8rem;
 }
 
+@media (max-width:850px){
+    .filter-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
 .filter-text p {
     color: var(--black);
     font-size: 1.3rem;
